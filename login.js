@@ -14,8 +14,6 @@ document.querySelector('#submit').addEventListener('click',function(){
 
     if (userNameValue == 'mahedi' && passValue == 'mahedimm'){
          window.location.href = "./banking.html";
-    
-       
     }
 
 })
