@@ -1,0 +1,120 @@
+body {
+  background-image: url(./../img/web-app-back.svg);
+  color: #606468;
+  font: 87.5%/1.5em "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #0cecdd;
+  text-align: center;
+  padding-top: 50px;
+}
+.balance-section {
+  margin: 50px auto;
+  font: 87.5%/1.5em "Open Sans", sans-serif;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.section {
+  padding: 22px 22px 22px 22px;
+  width: 25%;
+  border-radius: 5px;
+  background: #282e33;
+  border: 3px solid #434a52;
+}
+.balance-cal {
+  margin: 50px auto;
+  font: 87.5%/1.5em "Open Sans", sans-serif;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.deposit {
+  background-color: #363b41;
+  width: 45%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+.withdrow {
+  background-color: #363b41;
+  width: 45%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#deposit-input {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 70%;
+  height: 50px;
+  border: 3px solid #434a52;
+}
+#withdrow-input {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 70%;
+  height: 50px;
+  border: 3px solid #434a52;
+}
+
+#deposite {
+  background: #f43b86;
+  border: 0;
+  width: 80%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#withdrow {
+  background: #ff4848;
+  border: 0;
+  width: 80%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+h3 {
+  color: #fff;
+}
+h2 {
+  color: #fff;
+}
+.color-pink {
+  color: #f43b86;
+}
+.color-yellow {
+  color: #ffe459;
+}
+.color-red {
+  color: #ff4848;
+}
+
+#deposite:hover {
+  background: #ffe459;
+}
+#withdrow:hover {
+  background: #ffe459;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+  <body>
+     
+
+    <h1>Welcome To My Baper Bank</h1>
+      
+      <section class="balance-section">
+        <div class="section">
+            <h2 class='color-pink'>Deposite</h2>
+            <h3 >$<span id="deposit-balance">00</span> </h3>
+          </div> 
+          <div class="section">
+            <h2 class='color-red'>Withdrow</h2>
+            <h3 >$<span id='withdrow-balance'>00</span> </h3>
+          </div>
+          <div class="section">
+            <h2 class='color-yellow'>Available Balance</h2>
+            <h3 >$<span id="available-balance">00</span></h3>
+          </div>
+      </section>
+      <div class="balance-cal">
+        <div class='deposit'>
+          <h2>Please Deposit</h2>
+          <input type="text" id="deposit-input" placeholder="$ Deposite Amount">
+          <input type="submit" value="Deposite" id='deposite'>
+        </div>
+        <div class='withdrow'>
+          <h2>Please Withdrow </h2>
+          <input  id="withdrow-input" placeholder=" $ Withdrow Amount">
+          <input type="submit" value="withdrow" id='withdrow'>
+        </div>
+   
+      </div>
+
+      <script src="./bank.js"></script>
+
+</html>
